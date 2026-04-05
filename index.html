@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Select the profile</h1>
+        <div style="position:absolute;top:1rem;right:1rem">
+            <button id="theme-toggle" aria-pressed="false" aria-label="Toggle dark and light mode">🌙 Dark</button>
+        </div>
+    </header>
+    <main>
+        <section aria-label="Select a profile">
+            <ul class="profiles" role="list">
+                <li>
+                    <a href="catalog/catalog.html" class="profile">
+                        <figure>
+                            <img src="assets/profile-1.jpg" alt="Profile Picture 1 - A funny monkey">
+                            <figcaption>Profile 1</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="catalog/catalog.html" class="profile">
+                        <figure>
+                            <img src="assets/profile-2.jpg" alt="Profile Picture 2 - A funny porcupine">
+                            <figcaption>Profile 2</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="catalog/catalog.html" class="profile">
+                        <figure>
+                            <img src="assets/profile-3.jpg" alt="Profile Picture 3 - A funny chicken">
+                            <figcaption>Profile 3</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="catalog/catalog.html" class="profile">
+                        <figure>
+                            <img src="assets/profile-4.jpg" alt="Profile Picture 4 - A funny dog">
+                            <figcaption>Profile 4</figcaption>
+                        </figure>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>Project by Tiago Fank</p>
+    </footer>
+    <script src="catalog/js/components/theme-toggle.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
